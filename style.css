@@ -59,3 +59,13 @@ body{
 .card{
     outline: #006666 solid 1px;
 }
+.dropdown-menu{
+    background-color: #006666;
+}
+.dropdown-item{
+    color: white;
+}
+.card-text{
+    display: flex;
+    flex-direction: row;
+}
