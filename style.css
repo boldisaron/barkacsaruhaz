@@ -67,5 +67,4 @@ body{
 }
 .card-text{
     display: flex;
-    flex-direction: row;
 }
