@@ -68,3 +68,6 @@ body{
 .card-text{
     display: flex;
 }
+.card-bg{
+    background-color: white;
+}
