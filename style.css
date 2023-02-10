@@ -6,6 +6,8 @@
 body{
     background-color: #a8a7a7;
     max-width: 100%;
+    height: 100vh;
+    
 }
 .navbar{
     background-color: #006666;
@@ -17,10 +19,10 @@ body{
     text-decoration: underline; 
     text-underline-offset: 10px;
 }
-.footer{
+footer{
     height: 75px;
     background-color: #006666;
-    width: 100%;
+    min-width: 100%;
 }
 .footer-item{
     height: 20px;
