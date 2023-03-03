@@ -86,3 +86,12 @@ footer{
     height: 400px;
     width: 100%;
 }
+.faanyag-oldal{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: white solid 2px;
+    position: relative;
+    bottom: 15px;
+}
+.modal-body{background-color:burlywood;}
