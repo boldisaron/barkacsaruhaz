@@ -95,3 +95,11 @@ footer{
     bottom: 15px;
 }
 .modal-body{background-color:burlywood;}
+
+.szerszam-banner{
+    background-image: url(Névtelen.png);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
