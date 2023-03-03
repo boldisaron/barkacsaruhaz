@@ -86,3 +86,40 @@ footer{
     height: 400px;
     width: 100%;
 }
+.faanyag-oldal{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: white solid 2px;
+    position: relative;
+    bottom: 15px;
+}
+.modal-body{background-color:burlywood;}
+
+.szerszam-banner{
+    background-image: url(Névtelen.png);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.411);
+    padding-left: 5px;
+    height: 40px;
+}
+th{
+    background-color: #006666;
+    border: black 1px solid;
+    padding-left: 5px;
+    height: 40px;
+}
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  
