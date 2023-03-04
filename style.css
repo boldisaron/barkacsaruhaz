@@ -122,4 +122,7 @@ th{
 tr:nth-child(even) {
     background-color: #D6EEEE;
   }
-  
+  article{
+    min-height: 215px;
+    width: 100%;
+  }
