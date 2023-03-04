@@ -1,19 +1,10 @@
-.carousel-item{
-    background-position: center center;
-    background-size: cover;
-    max-height: 600px;
-}
 body{
     background-color: #a8a7a7;
     max-width: 100%;
     height: 100vh;
-    
 }
 .navbar{
     background-color: #006666;
-}
-.carousel-inner{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .openTime{
     text-decoration: underline; 
@@ -30,26 +21,6 @@ footer{
     position: relative;
     bottom: 1.5px;
 }
-#nyitvatartas{
-    background-color: rgba(255, 255, 255, 0.582);
-    height: 100%;
-}
-
-.paint-color{
-    position: absolute;
-    top: 10px;
-    right: 12px; 
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-}
-.paint-banner{
-    background-image: url(paint.jpg);
-    background-position: center center;
-    background-size: cover;
-    height: 400px;
-    width: 100%;
-}
 .card-img-top{
     max-height: 222px;
     min-height: 222px;
@@ -57,9 +28,6 @@ footer{
 .footer-row{
     position: relative;
     top: 20px;
-}
-.card{
-    outline: #006666 solid 1px;
 }
 .dropdown-menu{
     background-color: #006666;
@@ -73,56 +41,25 @@ footer{
 .card-bg{
     background-color: white;
 }
-.faanyag{
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    border: white solid 2px;
-}
-#wood-banner{
-    background-image: url(fa.jpg);
-    background-position: center center;
-    background-size: cover;
-    height: 400px;
-    width: 100%;
-}
-.faanyag-oldal{
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    border: white solid 2px;
-    position: relative;
-    bottom: 15px;
-}
 .modal-body{background-color:burlywood;}
-
-.szerszam-banner{
-    background-image: url(Névtelen.png);
+#szerszam-banner{
+    background-image: url(img/szerszam_banner.jpg);
     background-position: center center;
     background-size: cover;
     height: 400px;
     width: 100%;
+    display: inline-block;
+    position: relative;
 }
-table{
-    width: 100%;
-    border-collapse: collapse;
-}
-td{
-    width: 50%;
-    background-color: rgba(255, 255, 255, 0.411);
-    padding-left: 5px;
-    height: 40px;
-}
-th{
-    background-color: #006666;
-    border: black 1px solid;
-    padding-left: 5px;
-    height: 40px;
-}
-tr:nth-child(even) {
-    background-color: #D6EEEE;
-  }
-  article{
+article{
     min-height: 230px;
     width: 100%;
-  }
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: #006666 3px 3px;
+}
