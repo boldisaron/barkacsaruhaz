@@ -64,7 +64,6 @@ footer{
 }
 .card{
     outline: #006666 solid 1px;
-    min-height: 400px;
 }
 .dropdown-menu{
     background-color: #006666;
@@ -123,4 +122,12 @@ tr:nth-child(even) {
 article{
     min-height: 230px;
     width: 100%;
+}
+.card-body{
+    border-top: #006666 1px solid 
+}
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
