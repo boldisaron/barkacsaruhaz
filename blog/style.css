@@ -1,7 +1,5 @@
-.carousel-item{
-    background-position: center center;
-    background-size: cover;
-    max-height: 600px;
+*{
+    box-sizing: border-box;
 }
 body{
     background-image: url("img/bloghatterjobb1.jpg");
@@ -15,24 +13,47 @@ body{
     margin: 10px;
 }
 .betű2{
-    text-decoration: none;
     font-size: 20px;
+    text-decoration: none;
     background-color: lightgray;
     margin: 31px;
     width: 500px;
 }
 .betű3{
     font-size: 20px;
+    background-color: lightgray;
+}
+.betű4{
+    font-size: 20px;
+    float: right;
+    width: 300px;
+    height: 120px;
+    margin: 170px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.betű5{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: tomato;
+}
+.betű6{
+    font-size: 20px;
+    float: right;
+    clear: right;
+    width: 300px;
+    height: 140px;
+    margin: 170px;
+    background-color: lightgray;
+    border-radius: 10px;
+    text-align: center;
+}
+.betű7{
+    font-size: 20px;
 }
 .navbar{
     background-color: #006666;
-}
-.carousel-inner{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-.openTime{
-    text-decoration: underline; 
-    text-underline-offset: 10px;
 }
 .footer{
     height: 75px;
@@ -44,60 +65,4 @@ body{
     width: 20px;
     position: relative;
     bottom: 1.5px;
-}
-#nyitvatartas{
-    background-color: rgba(255, 255, 255, 0.582);
-    height: 100%;
-}
-
-.paint-color{
-    position: absolute;
-    top: 10px;
-    right: 12px; 
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-}
-.paint-banner{
-    background-image: url(paint.jpg);
-    background-position: center center;
-    background-size: cover;
-    height: 400px;
-    width: 100%;
-}
-.card-img-top{
-    max-height: 222px;
-    min-height: 222px;
-}
-.footer-row{
-    position: relative;
-    top: 20px;
-}
-.card{
-    outline: #006666 solid 1px;
-}
-.dropdown-menu{
-    background-color: #006666;
-}
-.dropdown-item{
-    color: white;
-}
-.card-text{
-    display: flex;
-}
-.card-bg{
-    background-color: white;
-}
-.faanyag{
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    border: white solid 2px;
-}
-#wood-banner{
-    background-image: url(fa.jpg);
-    background-position: center center;
-    background-size: cover;
-    height: 400px;
-    width: 100%;
 }
