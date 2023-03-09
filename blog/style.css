@@ -71,3 +71,9 @@ body{
     position: relative;
     bottom: 1.5px;
 }
+.dropdown-menu{
+    background-color: #006666;
+}
+.dropdown-item{
+    color: white;
+}
