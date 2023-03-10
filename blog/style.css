@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("img/bloghatterjobb1.jpg");
+    background-image: url("img/bloghatter1920.jpg");
     max-width: 100%;
     background-repeat: repeat;
 }
@@ -27,6 +27,9 @@ body{
 .betű4{
     font-size: 20px;
     float: right;
+    width: 200px;
+    margin: 100px;
+    background-color: lightgray;
     width: 300px;
     height: 120px;
     background-color: lightgray;
@@ -57,6 +60,10 @@ body{
 .betű7{
     font-size: 20px;
 }
+.betű8{
+    text-decoration: none;
+    color: black;
+}
 .navbar{
     background-color: #006666;
 }
@@ -70,4 +77,10 @@ body{
     width: 20px;
     position: relative;
     bottom: 1.5px;
+}
+.dropdown-menu{
+    background-color: #006666;
+}
+.dropdown-item{
+    color: white;
 }
